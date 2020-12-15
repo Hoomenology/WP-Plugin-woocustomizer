@@ -1224,7 +1224,7 @@ if ( !function_exists( 'wcz_remove_account_links' ) ) {
         }
         
         // Remove Logout to add back after custom tabs
-        unset( $menu_links['customer-logout'] );
+        // unset( $menu_links['customer-logout'] );
         // Only Available in StoreCustomizer Pro
         // $menu_links['customer-logout'] = $logout;
         
