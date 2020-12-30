@@ -67,7 +67,7 @@ function wcz_woocommerce_products_per_page()
     return esc_attr( get_option( 'wcz-shop-pppage', woocustomizer_library_get_default( 'wcz-shop-pppage' ) ) );
 }
 
-add_filter( 'loop_shop_per_page', 'wcz_woocommerce_products_per_page', 9999 );
+// add_filter( 'loop_shop_per_page', 'wcz_woocommerce_products_per_page', 9999 );
 /**
  * Product gallery thumnbail columns.
  *
